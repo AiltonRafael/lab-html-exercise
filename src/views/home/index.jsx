@@ -7,13 +7,13 @@ import { IconComponent } from '../../components/homeComponents/iconComponent';
 
 export const HomeComponent = () => {
     return (
-    <>
+    <div>
         <NavbarComponents />
         <SeachbarComponent />
         <MainComponent />
         <SectionComponent />
         <IconComponent />
-    </>
+    </div>
 
     )
 }
